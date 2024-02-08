@@ -1,0 +1,14 @@
+#auto {
+    width: 100px;
+    height: 50px;
+    position: relative;
+    margin: 20px 20px;
+}
+
+#track {
+    width: 80%;
+    height: 700px;
+    background-color: #C6C5C5;
+    margin: 0 auto;
+    margin-top: 50px;
+}
