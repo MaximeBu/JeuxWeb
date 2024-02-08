@@ -48,7 +48,7 @@ let haut = 0
 const speed = 3
 
 function updateKeys () {
-  /*console.log(getComputedStyle(page).margin, getComputedStyle(auto).margin)
+  console.log(getComputedStyle(page).margin, getComputedStyle(auto).margin)
   if (
     getComputedStyle(page).x < getComputedStyle(auto).x + getComputedStyle(auto).width &&
     getComputedStyle(page).x + getComputedStyle(page).width > getComputedStyle(auto).x &&
@@ -56,7 +56,7 @@ function updateKeys () {
     getComputedStyle(page).height + getComputedStyle(page).y > getComputedStyle(auto).y
   ) {
     console.log('Collision')
-  } else {*/
+  } else {
     let nbrTouches = 0
     for (let i = 0; i < keysPressed.length; i++) {
       if (keysPressed[i] === true) {
@@ -102,7 +102,7 @@ function updateKeys () {
         auto.style.transform = 'rotate(270deg)'
       }
     }
-  //}
+  }
 
   auto.style.left = left + 'px'
   auto.style.top = haut + 'px'
